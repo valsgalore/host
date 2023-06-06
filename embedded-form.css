@@ -1,6 +1,4 @@
 /* Style */
-* { color:red; }
-#label_21546 {
-  font-size:x-large;
-  font-style: italic;
+button.surveyBtn_submit {
+    border-radius: .25rem;
 }
