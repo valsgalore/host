@@ -1,4 +1,6 @@
 /* Style */
+@import url("https://www.ssa.gov/themes/custom/ssa_core/assets/css/styles.css");
+    
 button.surveyBtn_submit {
     border-radius: .25rem;
 }
