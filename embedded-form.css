@@ -1,6 +1,71 @@
 /* Style */
-@import url("https://www.ssa.gov/themes/custom/ssa_core/assets/css/styles.css");
+
+body {
+    align-items: flex-start;
+}
     
+h1, h2, h3, h4, h5, h6, p, div{
+    color: var(--gray-cool-90);
+}
+
+
+#survey-wrapper h1,
+#survey-wrapper h2,
+#survey-wrapper h3,
+#survey-wrapper h4,
+#survey-wrapper h5,
+#survey-wrapper h6 {
+    font-weight:bold;
+    font-size:1rem; 
+}
+
+.Bd0kav7yJm1LMydxzQxl {
+    font-size: 1.1rem;
+}
+
+
+/* Submit button */
+._207sw0FPxzBQQBPqaDdUpd {
+    justify-content: unset;
+}
 button.surveyBtn_submit {
     border-radius: .25rem;
+}
+
+/*Powered by Medallia*/
+._10o3Ogtkx0b1R7N7tOe-dr {
+    display:none;
+}
+
+.form-approved {
+    color: var(--gray-cool-60);
+    font-size: .88rem;
+}
+
+
+
+:root {
+  --main-black: #1c1d1f;
+  --blue-1: #274863;
+  --blue-2: #2378c3;
+  --gray-1: #f0f0f0;
+  --gray-cool-3: #f5f6f7;
+  --gray-cool-5: #edeff0;
+  --gray-cool-10: #dfe1e2;
+  --gray-cool-20: #c6cace;
+  --gray-cool-40: #8d9297;
+  --gray-cool-50: #71767a;
+  --gray-cool-60: #565c65;
+  --gray-cool-90: #1c1d1f;
+  --blue-40v: #2491ff;
+  --blue-50v: #0076d6;
+  --blue-60v: #005ea2;
+  --blue-70v: #0b4778;
+  --blue-80v: #112f4e;
+  --violet-70v: #54278f;
+  --cyan-5: #e7f6f8;
+  --green-cool-50v: #008817;
+  --red-cool-10v: #f8dfe2;
+  --red-50v: #e52207;
+  --gold-10v: #ffe396;
 }
