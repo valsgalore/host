@@ -15,14 +15,10 @@ body {
     font-weight:bold;
 }
 
-/* Field headings */
-._1wOydBgObqX6N_H4ZxO4E5 {
-    margin-bottom: .3rem;
-}
 
 
 /* Multi-choice answer container */
-li._2BCbSBZTAy3NNEkchW4JAl { 
+li._2BCbSBZTAy3NNEkchW4JAl {
     border:none;
 }
 li._2BCbSBZTAy3NNEkchW4JAl:hover {
@@ -42,7 +38,7 @@ li._2BCbSBZTAy3NNEkchW4JAl label {
 }
 input[type=radio]:checked+label {
     box-shadow: 0 0 0 2px var(--palette-action-active);
-  
+
 }
 
 
@@ -61,22 +57,15 @@ textarea._3VgxUzppbTclqye69HSxig:focus {
 
 
 
-
 /* Submit button */
 ._207sw0FPxzBQQBPqaDdUpd {
     justify-content: unset;
+    margin: 0 0 16px;
 }
 button.surveyBtn_submit {
     border-radius: .25rem;
 }
 
-
-
-
-/*Powered by Medallia*/
-._10o3Ogtkx0b1R7N7tOe-dr {
-    display:none;
-}
 
 
 
