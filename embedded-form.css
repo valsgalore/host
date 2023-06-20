@@ -64,6 +64,7 @@ textarea._3VgxUzppbTclqye69HSxig:focus {
 }
 button.surveyBtn_submit {
     border-radius: .25rem;
+    font-size: unset;
 }
 
 
