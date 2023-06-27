@@ -5,6 +5,9 @@ body {
 }
 
 
+#survey-wrapper {
+  max-width:32rem;
+}
 
 #survey-wrapper h1,
 #survey-wrapper h2,
@@ -129,11 +132,12 @@ button.surveyBtn_submit {
   --palette-rating-number-text-selected-hover: var(--palette-core-components);
   --palette-rating-number-text-selected: var(--palette-core-components);
   --palette-rating-number-text: var(--palette-typography-body);
+  --survey-footer-buttons-justify: flex-start; /* Added */
   --survey-sides-padding: 30px;
   --survey-padding: 0 var(--survey-sides-padding);
   --margin-subHeadline: 4px 0 0 0;
   --margin-validationError: 8px 0 0 0;
   --base-headlines-margin: 0 0 10px 0;
-  --questions-spacing: 1.5rem;
+  --questions-spacing: 1.5rem; /* overridden */
   --powered-by-display: none; /* overridden */
 }
