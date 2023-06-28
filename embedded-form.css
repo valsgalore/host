@@ -76,6 +76,7 @@ button.surveyBtn_submit {
 
 
 :root {
+  /* SSA Variables */
   --main-black: #1c1d1f;
   --blue-1: #274863;
   --blue-2: #2378c3;
@@ -100,44 +101,15 @@ button.surveyBtn_submit {
   --red-50v: #e52207;
   --gold-10v: #ffe396;
     /* Medallia variables */
-  --typography-fontFamily: 'open sans';
-  --typography-headline-size: 1rem; /*overridden*/
-  --typography-subHeadline-size: 14px;
-  --typography-body-size: 1.1rem; /* overridden */
-  --typography-bodyLarge-weight: 600;
-  --typography-bodyLarge-size: 16px;
-  --palette-core-primary: #4050C6;
-  --palette-core-canvas: #FFFFFF;
-  --palette-core-components: #FFFFFF;
+  --typography-headline-size: 1rem;
+  --typography-body-size: 1.1rem;
   --palette-core-outline: var(--gray-cool-20);
-  --palette-typography-body: var(--gray-cool-90); /* overridden */
-  --palette-typography-headline: var(--gray-cool-90); /* overridden */
-  --palette-typography-subHeadline: rgba(18, 24, 38, .7);
-  --palette-typography-error: #BE0406;
-  --palette-typography-placeholder: rgba(18, 24, 38, .7);
-  --palette-typography-poweredby: #2C3548;
-  --palette-typography-user-input: #000;
-  --palette-typography-link: #2467C6;
-  --palette-action-hover: var(--blue-2); /* overridden */
-  --palette-action-active: var(--blue-50v); /* overridden */
-  --palette-group-inner-mark: #ffffff;
-  --palette-group-mark-background: var(--blue-2); /* overridden */
-  --palette-rating-custom-hover: rgba(254, 215, 44, .7);
-  --palette-rating-custom-selected: #FED72C;
-  --palette-rating-custom-outline: var(--palette-typography-placeholder);
-  --palette-rating-custom-selected-outline: var(--palette-typography-body);
-  --palette-rating-number-hover: var(--palette-core-primary);
-  --palette-rating-number-selected: var(--palette-core-primary);
-  --palette-rating-number-text-hover: var(--palette-typography-body);
-  --palette-rating-number-text-selected-hover: var(--palette-core-components);
-  --palette-rating-number-text-selected: var(--palette-core-components);
-  --palette-rating-number-text: var(--palette-typography-body);
-  --survey-footer-buttons-justify: flex-start; /* Added */
-  --survey-sides-padding: 30px;
-  --survey-padding: 0 var(--survey-sides-padding);
-  --margin-subHeadline: 4px 0 0 0;
-  --margin-validationError: 8px 0 0 0;
-  --base-headlines-margin: 0 0 10px 0;
-  --questions-spacing: 1.5rem; /* overridden */
-  --powered-by-display: none; /* overridden */
+  --palette-typography-body: var(--gray-cool-90); 
+  --palette-typography-link: var(--blue-2);
+  --palette-action-hover: var(--blue-2);
+  --palette-action-active: var(--blue-50v);
+  --palette-group-mark-background: var(--blue-2);
+  --survey-footer-buttons-justify: flex-start; 
+  --questions-spacing: 1.5rem;
+  --powered-by-display: none;
 }
