@@ -44,8 +44,8 @@ input[type=radio]:checked+label {
 /* Text entry */
 textarea._3VgxUzppbTclqye69HSxig {
   border-radius: .25rem;
-  padding:.69rem .8rem;
-  border:1px solid var(--gray-cool90)
+  padding: .69rem .8rem;
+  border: 1px solid var(--gray-cool90);
 }
 textarea._3VgxUzppbTclqye69HSxig:focus {
   box-shadow: 0 0 0 1px var(--palette-action-active);
@@ -57,7 +57,6 @@ textarea._3VgxUzppbTclqye69HSxig:hover {
 }
 
 
-
 /* Submit button */
 ._207sw0FPxzBQQBPqaDdUpd {
   justify-content: unset;
@@ -66,6 +65,16 @@ textarea._3VgxUzppbTclqye69HSxig:hover {
 button.surveyBtn_submit {
   border-radius: .25rem;
   font-size: unset;
+}
+
+/* Switch approval # and footer */
+.approvalnum {
+  position: relative;
+  margin-top: 3rem;
+}
+#survey-wrapper footer {
+  position: relative;
+  top: -7rem;
 }
 
 
