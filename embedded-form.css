@@ -69,12 +69,10 @@ button.surveyBtn_submit {
 
 /* Switch approval # and footer */
 .approvalnum {
-  position: relative;
-  margin-top: 3rem;
+  margin-top:3rem
 }
 #survey-wrapper footer {
-  position: relative;
-  top: -7rem;
+  margin-top: -6.4rem;
 }
 
 
