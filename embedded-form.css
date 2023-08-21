@@ -69,11 +69,15 @@ button.surveyBtn_submit {
 
 /* Switch approval # and footer */
 .approvalnum {
-  margin-top:3rem
+  margin-top:3rem;
 }
 #survey-wrapper footer {
-  margin-top: -6.4rem;
+  margin-top:-3.2rem;
+  position:relative;
+  top: -3rem;
 }
+
+  /* body {overflow-y:hidden !important;} */
 
 
 :root {
