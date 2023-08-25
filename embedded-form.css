@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 body {
   align-items: flex-start;
 }
@@ -108,6 +110,7 @@ button.surveyBtn_submit {
   /* Medallia variables */
   --typography-headline-size: 1rem;
   --typography-body-size: 1.1rem;
+  --typography-fontFamily: 'Public Sans', 'open sans', sans-serif;'
   --palette-core-outline: var(--gray-cool20);
   --palette-typography-body: var(--gray-cool90);
   --palette-typography-link: var(--blue2);
